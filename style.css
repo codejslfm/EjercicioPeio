@@ -1,0 +1,162 @@
+
+
+div#imagen{
+    width: 255px;
+    height: 361px;
+    margin: 30px;
+    background-image: url(../EjercicioPeio/gisela.jpg);
+    display: inline-block;
+    flex-wrap: wrap;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+div#info{
+    width: 255px;
+    height: 361px;
+    display: inline-block;
+    flex-wrap: wrap;
+    
+    
+   
+}
+    
+div#imagen:hover div#info{
+    
+    transform: translate3d(-15);
+    background: linear-gradient(to bottom, rgba(224,233,255,0.7) 0%, rgba(250,245,229,0.2) 20%, rgba(250,245,229,0.3) 70%, rgba(224,233,255,0.5) 100%) fixed,url(../EjercicioPeio/brisela.jpg) scroll center top transparent;
+}
+
+div#imagen2{
+    width: 255px;
+    height: 361px;
+    margin: 30px;
+    background-image: url(../EjercicioPeio/extrictorofSin.jpg);
+    display:inline-block;
+    flex-wrap: wrap;
+}
+
+div#info2{
+    width: 255px;
+    height: 361px;
+    display: inline-block;
+    flex-wrap: wrap;
+ 
+   
+}
+    
+
+div#imagen2:hover div#info2{
+    transform: translate3d(-15);
+    background: linear-gradient(to bottom, rgba(224,233,255,0.7) 0%, rgba(250,245,229,0.2) 20%, rgba(250,245,229,0.3) 70%, rgba(224,233,255,0.5) 100%) fixed,url(../EjercicioPeio/ExtricatorofFlesh.jpg) scroll center top transparent;
+}
+
+div#imagen3{
+    width: 255px;
+    height: 361px;
+    margin: 30px;
+    background-image: url(../EjercicioPeio/bruna.jpg);
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+div#info3{
+    width: 255px;
+    height: 361px;
+    display: inline-block;
+    flex-wrap: wrap;
+ 
+   
+}
+    
+div#imagen3:hover div#info3{
+    transform: translate3d(-15);
+    background: linear-gradient(to bottom, rgba(224,233,255,0.7) 0%, rgba(250,245,229,0.2) 20%, rgba(250,245,229,0.3) 70%, rgba(224,233,255,0.5) 100%) fixed,url(../EjercicioPeio/brisela.jpg) scroll center top transparent;
+}
+
+div#imagen4{
+    width: 255px;
+    height: 361px;
+    margin: 30px;
+    background-image: url(../EjercicioPeio/hanweir.jpg);
+    display:  inline-block;
+    flex-wrap: wrap;
+}
+
+div#info4{
+    width: 255px;
+    height: 361px;
+    display: inline-block;
+    flex-wrap: wrap;
+ 
+   
+}
+    
+
+
+div#imagen4:hover div#info4{
+    transform: translate3d(-15);
+    background: linear-gradient(to bottom, rgba(224,233,255,0.7) 0%, rgba(250,245,229,0.2) 20%, rgba(250,245,229,0.3) 70%, rgba(224,233,255,0.5) 100%) fixed,url(../EjercicioPeio/HanweirWrithing.jpg) scroll center top transparent;
+}
+
+
+
+  
+
+body{
+    background-color: grey;
+    text-align: center;
+    padding: 6px;
+    border: 3px solid #ccc;
+   
+    margin-top: 20px;
+  
+}
+h1{
+    border: 3px solid bisque;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 10px;
+    width: 300px;
+    color: wheat;
+ 
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+    
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+  .responsive {
+    padding: 0 15px;
+    float: left;
+    width: 24.99999%;
+  }
+  #navegador ul{
+    list-style-type: none;
+    text-align: left;
+ }
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    border-radius: 3px;
+    border: solid;
+    font-size: 25px;
+ }
+ #navegador li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+ }
+
+
+
